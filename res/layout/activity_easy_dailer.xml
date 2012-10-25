@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvNumber"
+        style="@style/TextView"
+        android:gravity="right" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bOne"
+            style="@style/NumPad"
+            android:text="@string/bOne" />
+
+        <Button
+            android:id="@+id/bTwo"
+            style="@style/NumPad"
+            android:text="@string/bTwo" />
+
+        <Button
+            android:id="@+id/bThree"
+            style="@style/NumPad"
+            android:text="@string/bThree" />
+
+        <Button
+            android:id="@+id/bFour"
+            style="@style/NumPad"
+            android:text="@string/bFour" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bFive"
+            style="@style/NumPad"
+            android:text="@string/bFive" />
+
+        <Button
+            android:id="@+id/bSix"
+            style="@style/NumPad"
+            android:text="@string/bSix" />
+
+        <Button
+            android:id="@+id/bSeven"
+            style="@style/NumPad"
+            android:text="@string/bSeven" />
+
+        <Button
+            android:id="@+id/bEight"
+            style="@style/NumPad"
+            android:text="@string/bEight" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bNine"
+            style="@style/NumPad"
+            android:text="@string/bNine" />
+
+        <Button
+            android:id="@+id/bZero"
+            style="@style/NumPad"
+            android:text="@string/bZero" />
+
+        <Button
+            android:id="@+id/bStar"
+            style="@style/NumPad"
+            android:text="@string/bStar" />
+
+        <Button
+            android:id="@+id/bHash"
+            style="@style/NumPad"
+            android:text="@string/bHash" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bCall"
+            style="@style/CallButton"
+            android:text="@string/bCall" />
+
+        <Button
+            android:id="@+id/bBackSpace"
+            style="@style/BackSpaceButton"
+            android:text="@string/bBackSpace" />
+    </LinearLayout>
+
+</LinearLayout>

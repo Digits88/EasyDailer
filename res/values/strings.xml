@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Easy Dailer</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_easy_dailer">EasyDailer</string>
+    <string name="bOne">1</string>
+    <string name="bTwo">2</string>
+    <string name="bThree">3</string>
+    <string name="bFour">4</string>
+    <string name="bFive">5</string>
+    <string name="bSix">6</string>
+    <string name="bSeven">7</string>
+    <string name="bEight">8</string>
+    <string name="bNine">9</string>
+    <string name="bZero">0</string>
+    <string name="bStar">*</string>
+    <string name="bHash">#</string>
+    <string name="bCall">Call</string>
+    <string name="bBackSpace">Back Space</string>
+
+</resources>
